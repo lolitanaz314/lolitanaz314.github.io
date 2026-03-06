@@ -1,48 +1,127 @@
-<a href="#portfolio">Portfolio</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lolita Nazarov</title>
+  <meta
+    name="description"
+    content="Lolita Nazarov — Data Scientist building AI tools for the creator economy."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <nav class="nav">
+        <div class="logo">LN</div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
 
+      <div class="hero-content">
+        <p class="eyebrow">DATA SCIENCE · AI · MUSIC TECH</p>
+        <h1>Building intelligent products at the intersection of data, AI, and creativity.</h1>
+        <p class="hero-text">
+          I’m Lolita Nazarov — a former Google engineer transitioning into data science,
+          focused on analytics, experimentation, machine learning, and tools for the creator economy.
+        </p>
 
-I’m an aspiring data scientist with a background in computer science, applied mathematics, and statistics from Stony Brook University. I previously worked as a software engineer at Google, where I contributed to both large-scale infrastructure and data science–focused products. Most recently, I worked on Google Meridian, Google’s open-source marketing mix modeling platform, implementing algorithms like Hill saturation curves, response curves, and adstock decay to help analyze marketing impact. My work sits at the intersection of modeling, experimentation, and product—turning complex statistical ideas into tools that help teams make better decisions.
-
-Outside of industry, I’ve spent years exploring machine learning through research and side projects—from predicting patient diagnoses with recurrent neural networks to using BERT models to analyze financial news and social media data. I also co-founded the Applied Math & Statistics Committee at Stony Brook, where I organized speaker events and built a community of 200+ students interested in quantitative fields. Today, I’m especially excited about applying data science to real-world problems in the creator economy, AI-powered tools, and measurement systems—areas where rigorous modeling and thoughtful product design can create real impact.
-
-
-
-
-<section id="portfolio" style="padding: 48px 0;">
-  <h2 style="font-size: 28px; margin: 0 0 16px;">Portfolio</h2>
-
-  <!-- Project card -->
-  <div style="border: 1px solid rgba(255,255,255,0.15); border-radius: 16px; padding: 18px; max-width: 720px;">
-    <h3 style="margin: 0 0 8px; font-size: 20px;">Music IQ</h3>
-    <p style="margin: 0 0 12px; opacity: 0.85;">
-      AI + music analytics project (search, insights, and tooling).  
-    </p>
-    <a href="https://music-iq.guzar.com/" target="_blank" rel="noopener noreferrer"
-       style="display: inline-block; padding: 10px 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.2); text-decoration: none;">
-      Visit site →
-    </a>
-
-    <!-- Demo video -->
-    <div style="margin-top: 16px;">
-      <p style="margin: 0 0 10px; font-weight: 600;">Demo</p>
-
-      <!-- Option A: YouTube/Vimeo embed (recommended) -->
-      <div style="position: relative; padding-top: 56.25%; border-radius: 14px; overflow: hidden;">
-        <iframe
-          src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-          title="Music IQ demo"
-          style="position:absolute; inset:0; width:100%; height:100%; border:0;"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <div class="hero-buttons">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="#contact">Get In Touch</a>
+        </div>
       </div>
+    </header>
 
-      <!-- Option B: Local MP4 (uncomment if you upload an mp4 instead)
-      <video controls style="width:100%; border-radius: 14px; margin-top: 10px;">
-        <source src="assets/music-iq-demo.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      -->
-    </div>
+    <main>
+      <section class="card intro-card" id="about">
+        <div class="section-label">About</div>
+        <div class="section-content">
+          <h2>Technical, analytical, and creative.</h2>
+          <p>
+            My background spans software engineering, applied math, statistics, and music.
+            I’m especially interested in product data science, experimentation, retail analytics,
+            marketing measurement, and AI systems that support artists and creative businesses.
+          </p>
+        </div>
+      </section>
+
+      <section class="projects-section" id="projects">
+        <div class="section-header">
+          <div class="section-label">Selected Work</div>
+          <h2>Projects that show product, analytics, and AI thinking.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-tag">AI / NLP</div>
+            <h3>Music RAG Intelligence Engine</h3>
+            <p>
+              Retrieval-augmented system for analyzing music contracts, royalties,
+              and creator-economy documents using vector search and LLM workflows.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Analytics / Retail</div>
+            <h3>Promotions Analytics Dashboard</h3>
+            <p>
+              Dashboard for baseline vs. promo sales, lift %, margin impact, basket size,
+              cannibalization, and promotional ROI.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Measurement / MMM</div>
+            <h3>Marketing Mix Modeling</h3>
+            <p>
+              Experience contributing to Google’s open-source Meridian MMM ecosystem,
+              with interest in measurement, optimization, and business decision-making.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Experimentation</div>
+            <h3>A/B Testing and Product DS</h3>
+            <p>
+              Focused on product metrics, experiment design, statistical reasoning,
+              and decision frameworks for product growth.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="card contact-card" id="contact">
+        <div class="section-label">Contact</div>
+        <div class="section-content">
+          <h2>Let’s connect.</h2>
+          <p>
+            I’m interested in data science, AI, and product opportunities — especially in
+            creator tools, consumer products, and analytics-heavy environments.
+          </p>
+
+          <div class="contact-links">
+            <a href="https://github.com/lolitanaz314" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:your-email@example.com">Email</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Lolita Nazarov</p>
+    </footer>
   </div>
-</section>
+</body>
+</html>
